@@ -8,6 +8,9 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = [
+    "black>=26.5.1",
+    "isort>=9.0.1",
+    "langchain>=1.4.1",
     "langchain-google-genai>=4.4.0",
     "langchain-mcp-adapters>=0.3.2",
     "langgraph>=1.2.11",
