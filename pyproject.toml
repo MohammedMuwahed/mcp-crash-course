@@ -1,0 +1,21 @@
+[project]
+name = "mcp-crash-course"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Mohammad Muwahed", email = "103749096+MohammedMuwahed@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "langchain-mcp-adapters>=0.3.2",
+    "langgraph>=1.2.11",
+    "python-dotenv>=1.2.3",
+]
+
+[project.scripts]
+mcp-crash-course = "mcp_crash_course:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
